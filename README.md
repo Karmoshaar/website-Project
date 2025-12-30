@@ -103,7 +103,38 @@ To customize this portfolio for your own use:
 
 ## 🌐 Live Demo
 
-[Add your live demo URL here]
+[View Live Demo](https://karmoshaar.github.io/website-Project/)
+
+### How to Deploy on GitHub Pages
+
+Follow these steps to host your portfolio for free on GitHub Pages:
+
+1. **Push your code to GitHub**:
+   ```bash
+   git add .
+   git commit -m "Initial commit"
+   git push origin main
+   ```
+   (Replace `main` with `master` if that's your default branch)
+
+2. **Enable GitHub Pages**:
+   - Go to your repository on GitHub
+   - Click on **Settings** (top menu)
+   - Scroll down to **Pages** in the left sidebar
+   - Under **Source**, select your branch (usually `main` or `master`)
+   - Select the `/ (root)` folder
+   - Click **Save**
+
+3. **Wait for deployment**:
+   - GitHub will build and deploy your site (usually takes 1-2 minutes)
+   - You'll see a green checkmark when it's ready
+   - Your site will be available at: `https://[your-username].github.io/[repository-name]/`
+
+4. **Update the README**:
+   - Replace the URL above with your actual GitHub Pages URL
+   - The format is: `https://[your-username].github.io/website-Project/`
+
+**Note**: Make sure your `index.html` file is in the root directory of your repository for GitHub Pages to work correctly.
 
 ## 👤 Author
 
